@@ -1,7 +1,7 @@
-pacman -Syu
-pacman -S --needed base linux-zen linux-firmware
-pacman -S --needed networkmanager
-pacman -S --needed sudo reflector rsync
-pacman -S --needed base-devel git encfs openssh
+sudo pacman -Syu
+sudo pacman -S --needed base linux-zen linux-firmware
+sudo pacman -S --needed networkmanager
+sudo pacman -S --needed sudo reflector rsync
+sudo pacman -S --needed base-devel git encfs openssh
 
 
