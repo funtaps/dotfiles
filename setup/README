@@ -12,7 +12,12 @@ systemctl enable NetworkManager.service
 - pacman -S sudo
 - EDITOR=nvim visudo
 - relogin
-- sudo pacman -S git
+- GET THE KEYS DRIVE
+- sudo mount DRIVE /mnt
+- sudo pacman -S git encfs openssh
+- sudo encfs /mnt/.encrypted /mnt/keys
+- sudo cp -R /mnt/keys/.ssh ~/.ssh
+- sudo chown -R kfuntov:kfuntov ~/.ssh
 - git clone --bare https://github.com/funtaps/dotfiles.git ~/.dotfiles
 - alias .df='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 - .df restore --staged *
