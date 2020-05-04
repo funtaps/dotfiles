@@ -19,3 +19,6 @@
 [submodule ".arch_stuff/aur/zoom"]
 	path = .arch_stuff/aur/zoom
 	url = https://aur.archlinux.org/zoom.git
+[submodule ".config/fish/theme-cmorrell.com"]
+	path = .config/fish/theme-cmorrell.com
+	url = git@github.com:funtaps/theme-cmorrell.com.git
