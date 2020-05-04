@@ -1,0 +1,1 @@
+/home/kfuntov/.config/fish/theme-cmorrell.com/fish_prompt.fish
