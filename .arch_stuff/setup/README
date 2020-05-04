@@ -1,8 +1,8 @@
 - https://wiki.archlinux.org/index.php/Installation_guide
 - pacman -S reflector rsync
 reflector --verbose --sort rate --country Russia > ~/mirrorlist1
-less mirrorlist1
-mv mirrorlist1 /etc/pacman.d/mirrorlist
+less ~/mirrorlist1
+mv ~/mirrorlist1 /etc/pacman.d/mirrorlist
 - boot loader
 - network
 pacman -S networkmanager
@@ -18,7 +18,10 @@ systemctl enable NetworkManager.service
 - sudo encfs /mnt/.encrypted /mnt/keys
 - sudo cp -R /mnt/keys/.ssh ~/.ssh
 - sudo chown -R kfuntov:kfuntov ~/.ssh
-- git clone --bare https://github.com/funtaps/dotfiles.git ~/.dotfiles
+- sudo cp /mnt/keys/privkey.asc ~/privkey.asc
+- gpg -v --batch --import ~/privkey.asc
+- sudo rm ~/privkey.asc
+- git clone --bare git@github.com:funtaps/dotfiles.git ~/.dotfiles
 - alias .df='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 - .df restore --staged *
 - .df restore *
