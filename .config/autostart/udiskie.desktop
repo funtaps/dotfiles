@@ -1,0 +1,5 @@
+[Desktop Entry]
+Exec=/usr/bin/udiskie --tray
+Name=udiskie
+Comment=automounter for removable media
+Type=Application
