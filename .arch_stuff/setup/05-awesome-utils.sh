@@ -2,7 +2,7 @@
 sudo pacman -S --needed arandr blueberry bluez-utils dex flameshot light-locker network-manager-applet picom playerctl polkit-gnome redshift rofi udiskie xfce4-power-manager
 
 # programs
-sudo pacman -S  --needed chromium gnome-font-viewer gnome-keyring gparted libgnome-keyring mate-system-monitor  seahorse smplayer smplayer-themes steam
+sudo pacman -S  --needed chromium discord gnome-font-viewer gnome-keyring gparted libgnome-keyring mate-system-monitor  seahorse smplayer smplayer-themes steam
 
 # files and archives
 sudo pacman -S --needed atool gvfs gvfs-afc gvfs-goa gvfs-google gvfs-gphoto2 gvfs-mtp gvfs-nfs gvfs-smb pcmanfm-gtk3 tumbler unrar xarchiver
