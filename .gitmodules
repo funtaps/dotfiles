@@ -1,0 +1,21 @@
+[submodule ".arch_stuff/aur/jetbrains-toolbox"]
+	path = .arch_stuff/aur/jetbrains-toolbox
+	url = https://aur.archlinux.org/jetbrains-toolbox.git
+[submodule ".arch_stuff/aur/dust"]
+	path = .arch_stuff/aur/dust
+	url = https://aur.archlinux.org/dust.git
+[submodule ".arch_stuff/aur/psysh"]
+	path = .arch_stuff/aur/psysh
+	url = https://aur.archlinux.org/psysh.git
+[submodule ".arch_stuff/aur/skypeforlinux-stable-bin"]
+	path = .arch_stuff/aur/skypeforlinux-stable-bin
+	url = https://aur.archlinux.org/skypeforlinux-stable-bin.git
+[submodule ".arch_stuff/aur/slack-desktop"]
+	path = .arch_stuff/aur/slack-desktop
+	url = https://aur.archlinux.org/slack-desktop.git
+[submodule ".arch_stuff/aur/ttf-paratype"]
+	path = .arch_stuff/aur/ttf-paratype
+	url = https://aur.archlinux.org/ttf-paratype.git
+[submodule ".arch_stuff/aur/zoom"]
+	path = .arch_stuff/aur/zoom
+	url = https://aur.archlinux.org/zoom.git
