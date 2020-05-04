@@ -1,4 +1,4 @@
-sudo pacman -S --needed awesome xorg-server lightdm-webkit-theme-litarvan kitty
+sudo pacman -S --needed awesome xorg-server lightdm-webkit-theme-litarvan alacritty
 sudo systemctl enable lightdm.service
 echo 'greeter-session=lightdm-webkit2-greeter'
 read
