@@ -1,8 +1,8 @@
 - https://wiki.archlinux.org/index.php/Installation_guide
 - pacman -S reflector rsync
-reflector --verbose --sort rate --country Russia > ~/mirrolist1
-less mirrolist1
-mv mirrolist1 /etc/pacman.d/mirrorlist
+reflector --verbose --sort rate --country Russia > ~/mirrorlist1
+less mirrorlist1
+mv mirrorlist1 /etc/pacman.d/mirrorlist
 - boot loader
 - network
 pacman -S networkmanager
