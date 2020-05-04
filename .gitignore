@@ -19,9 +19,11 @@
 .config/smplayer/tv.m3u8
 .dotfiles
 .gnupg
+.java
 .local
 .pki
 .ssh
+.subversion
 .xsession-errors
 .xsession-errors.old
 Documents
