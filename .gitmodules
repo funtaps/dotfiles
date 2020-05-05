@@ -22,3 +22,6 @@
 [submodule ".config/fish/theme-cmorrell.com"]
 	path = .config/fish/theme-cmorrell.com
 	url = git@github.com:funtaps/theme-cmorrell.com.git
+[submodule ".config/awesome"]
+	path = .config/awesome
+	url = git@github.com:funtaps/awesome-config.git
