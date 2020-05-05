@@ -5,19 +5,23 @@
 .bashrc
 .cache
 .cargo
+.config/Code - OSS/
 .config/JetBrains/
+.config/Slack/
+.config/Unknown Organization/
 .config/chromium/
 .config/dconf/
+.config/discord/
 .config/libfm/
 .config/menus/
 .config/pulse/
-.config/Slack/
 .config/smplayer/*.m3u8
 .config/smplayer/device_info.ini
 .config/smplayer/hdpi.ini
 .config/smplayer/player_info.ini
 .config/smplayer/playlist.ini
 .config/smplayer/tv.m3u8
+.config/zoomus.conf
 .dotfiles
 .gnupg
 .java
@@ -25,8 +29,10 @@
 .pki
 .ssh
 .subversion
+.vscode-oss/
 .xsession-errors
 .xsession-errors.old
+.zoom/
 Documents
 Downloads
 delete_me
